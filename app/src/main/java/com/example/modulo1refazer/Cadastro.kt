@@ -64,7 +64,6 @@ class Cadastro : AppCompatActivity() {
     }
 
     private fun verificarNomeCompleto(nomeCompleto: String): Boolean {
-        // Divida o nome completo em palavras e verifique se há pelo menos duas palavras
         val palavras = nomeCompleto.trim().split("\\s+".toRegex())
         return palavras.size >= 2
     }

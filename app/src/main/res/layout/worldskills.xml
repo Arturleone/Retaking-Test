@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top|center_horizontal"
+    android:paddingTop="40dp">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="    A WorldSkills é uma competição global que reúne jovens profissionais de diversas áreas para demonstrar suas habilidades em padrões internacionais. Organizada a cada dois anos, a competição promove a excelência técnica e a troca de conhecimento entre os competidores de diferentes países, incentivando a educação e o treinamento vocacional."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="243dp"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/ws" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="199dp"
+        android:layout_height="363dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="32dp"
+        android:text="O objetivo principal da WorldSkills Pernambuco é incentivar o aprimoramento contínuo das competências profissionais e a adoção de padrões internacionais de qualidade. Os competidores enfrentam provas práticas que simulam situações reais de trabalho, abrangendo desde a instalação e manutenção de sistemas complexos até o desenvolvimento de soluções inovadoras em tecnologia da informação. Essas provas são avaliadas por especialistas da indústria, garantindo que os participantes sejam rigorosamente testados em suas habilidades técnicas, criatividade e capacidade de resolver problemas sob pressão."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/imageView3"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="208dp"
+        android:layout_height="227dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:srcCompat="@drawable/world" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
